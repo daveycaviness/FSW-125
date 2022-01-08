@@ -1,0 +1,21 @@
+#newItemInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+body{
+    background: url("https://thumbs.dreamstime.com/z/environment-concept-recycling-symbol-stone-background-top-view-mock-up-garbage-disposal-table-89029589.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
