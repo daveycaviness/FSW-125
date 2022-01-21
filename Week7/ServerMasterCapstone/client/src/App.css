@@ -1,0 +1,122 @@
+#headerId{
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: crimson;
+    background-image: linear-gradient(ghostwhite, gray);
+    border-radius: 25%;
+}
+
+body{
+    background: url("https://wallpaperbat.com/img/612888-gamer-wallpaper-top-free-gamer-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 90%;
+}
+
+#newPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#updatePost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#searchDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.gameBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    font-family: 'Permanent Marker', cursive;
+}
+
+button{
+    background-image: linear-gradient(crimson, gray);
+    color: ghostwhite;
+    font-family: 'Permanent Marker', cursive;
+}
+
+@media only screen and (min-width: 1366px){
+    #mainDiv{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    #newPost{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        color: crimson;
+    }
+    
+    #updatePost{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        color: crimson;
+    }
+    
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        color: crimson;
+    }
+    
+    #searchDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    #headerId{
+        text-align: center;
+    }
+    
+    .gameBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    
+    .boxAsset{
+        line-height: 10px;
+    } 
+}
